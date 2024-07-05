@@ -31,7 +31,7 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "dxel@outlook.com";
+$EmailTo = "inform.milon@gmail.com";
 $Subject = "New quote request from Dxel Network";
 
 // prepare email body text
