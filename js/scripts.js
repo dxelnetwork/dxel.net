@@ -89,6 +89,26 @@
     });
 
     
+
+
+    /* Client Thumbnail Slider - Swiper */
+	var clientThumbSlider = new Swiper('.client-thumb-slider', {
+		autoplay: {
+            delay: 2800,
+            disableOnInteraction: false
+		},
+        loop: true,
+        navigation: {
+			nextEl: '.clients-next',
+			prevEl: '.clients-prev'
+		},
+		slidesPerView: 3,
+		spaceBetween: 24,
+        breakpoints: {
+            992: { slidesPerView: 2 },
+            768: { slidesPerView: 1 }
+        }
+    });
     /* Lightbox - Magnific Popup */
 	$('.popup-with-move-anim').magnificPopup({
 		type: 'inline',
